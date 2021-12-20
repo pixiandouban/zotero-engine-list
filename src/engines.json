@@ -368,7 +368,7 @@
 		"_iconSourceURI": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201017165044.png"
 	},
 	{
-		"_name": "World Cat",
+		"_name": "WorldCat",
 		"_alias": "World Cat",
 		"_description": "全世界最大的图书目录数据库",
 		"_icon": "file:///C:/Users/shawn/Zotero/locate/WorldCat_Logo.png",
@@ -381,6 +381,20 @@
 		},
 		"_iconSourceURI": "https://www.worldcat.org/favicon.ico"
 	},
+	{
+		"_name": "WorldCat (ISBN)",
+		"_alias": "World Cat",
+		"_description": "全世界最大的图书目录数据库",
+		"_icon": "file:///C:/Users/shawn/Zotero/locate/WorldCat_Logo.png",
+		"_hidden": false,
+		"_urlTemplate": "https://www.worldcat.org/search?q=isbn:{z:ISBN}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.worldcat.org/favicon.ico"
+	},	
 	{
 		"_name": "N-Connected Papers",
 		"_alias": "Connected Papers文献网络",
