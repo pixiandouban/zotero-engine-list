@@ -54,6 +54,20 @@
 		"_iconSourceURI": "https://www.douban.com/favicon.ico"
 	},
 	{
+		"_name": "中国国家图书馆(ISSN)",
+		"_alias": "国家图书馆（NLC）",
+		"_description": "中国最大的馆藏图书馆",
+		"_icon": "https://raw.githubusercontent.com/pixiandouban/zotero-engine-list/8d4ada8e565b1777d47dca5b573331f01e2804ab/src/NLC%20opac.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://opac.nlc.cn/F/?func=find-m&request={z:ISSN}&find_code=ISS",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.douban.com/favicon.ico"
+	},		
+	{
 		"_name": "上海图书馆(ISBN)",
 		"_alias": "上海市公共图书馆/上海科学技术情报研究所",
 		"_description": "上海图书馆书目检索 (iPac2.0)",
@@ -395,6 +409,20 @@
 		},
 		"_iconSourceURI": "https://www.worldcat.org/favicon.ico"
 	},	
+	{
+		"_name": "WorldCat (ISSN)",
+		"_alias": "World Cat",
+		"_description": "全世界最大的图书目录数据库",
+		"_icon": "https://raw.githubusercontent.com/pixiandouban/zotero-engine-list/8d4ada8e565b1777d47dca5b573331f01e2804ab/src/WorldCat_Logo.png",
+		"_hidden": false,
+		"_urlTemplate": "http://worldcat.org/issn/{z:ISSN}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.worldcat.org/favicon.ico"
+	},		
 	{
 		"_name": "N-Connected Papers",
 		"_alias": "Connected Papers文献网络",
