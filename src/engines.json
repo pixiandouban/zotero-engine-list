@@ -66,6 +66,20 @@
 			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
 		"_iconSourceURI": "https://www.douban.com/favicon.ico"
+	},	
+	{
+		"_name": "CiNii(ISSN)",
+		"_alias": "日本情报研究所",
+		"_description": "日本情报研究所",
+		"_icon": "https://raw.githubusercontent.com/pixiandouban/zotero-engine-list/8d4ada8e565b1777d47dca5b573331f01e2804ab/src/Cinii.png",
+		"_hidden": false,
+		"_urlTemplate": "https://ci.nii.ac.jp/books/openurl/query?ctx_ver=Z39.88-2004&url_ver=Z39.88-2004&rft.isbn={z:ISSN}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.douban.com/favicon.ico"
 	},		
 	{
 		"_name": "上海图书馆(ISBN)",
