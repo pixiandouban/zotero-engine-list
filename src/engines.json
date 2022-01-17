@@ -278,6 +278,20 @@
 		"_iconSourceURI": "https://www.wanfangdata.com.cn/favicon.ico"
 	},
 	{
+		"_name": "CQVIP Search",
+		"_alias": "维普期刊",
+		"_description": "维普期刊题名搜索",
+		"_icon": "https://qikan.cqvip.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://qikan.cqvip.com/Qikan/Search/Index?key=T={z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://qikan.cqvip.com/favicon.ico"
+	},		
+	{
 		"_name": "Google Scholar",
 		"_alias": "Google Scholar",
 		"_description": "Google Scholar Search",
